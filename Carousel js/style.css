@@ -32,6 +32,8 @@ body{
     display: block;
     text-decoration: none;
     border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     font-weight: bold;
     font-size: 16px;
     padding: 25px 20px;
@@ -68,6 +70,10 @@ body{
     margin-top: 120px;
 }
 .order-sections{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -89,6 +95,8 @@ body{
     width: 237px;
     padding: 0 26px 10px;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
     transition: all 1s ease-in-out;
 }
 .item-order-section h2{
@@ -105,6 +113,8 @@ h2.diferent{
     width: 182px;
     height: 182px;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     background-color: var(--theme-color);
     margin-top: -40px;
     
@@ -113,6 +123,7 @@ h2.diferent{
     padding: 25px 30px;
 }
 .green-circle, .item-order-section{
+    display: -ms-grid;
     display: grid;
     place-items: center;
 }
