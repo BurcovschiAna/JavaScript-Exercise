@@ -37,7 +37,7 @@ body{
 }
 .item-drum:active{
     background-color: #D1E9F6;
-    color: #D1E9F6;
+    border: 1px solid #D1E9F6;
 }
 .item-drum img{
     width: 100%;
@@ -45,4 +45,7 @@ body{
 .letter{
     font-size: 60px;
     color: #ED5564;
+}
+.letter.active{
+    color: #D1E9F6;
 }
